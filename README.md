@@ -1,6 +1,6 @@
 # VRural
 
-Treinamento em Realidade Virtual para pequenos e médios produtores rurais da Amazônia Legal, com foco inicial no P.A. Nova Amazônia (Boa Vista – RR).
+Treinamento em Realidade Virtual para pequenos e médios produtores rurais da Amazônia Legal.
 
 ---
 
