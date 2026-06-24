@@ -2,21 +2,490 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>VRural - Capacitação Agrícola Imersiva</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VRural - Capacitação técnica e treinamentos práticos em realidade virtual para pequenos e médios produtores rurais na Amazônia Legal. Aprenda manejo, plantio e novas culturas sem riscos.">
+  <meta name="keywords" content="Realidade Virtual, Agricultura, Amazônia Legal, Capacitação Agrícola, Produtor Rural, Tecnologia no Campo, Roraima">
+  <meta name="author" content="VRural">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vrural.github.io/">
+  <meta property="og:title" content="VRural | Capacitação Agrícola Imersiva em Realidade Virtual">
+  <meta property="og:description" content="Treinamento prático e imersivo para produtores rurais. Erre no simulador, acerte na safra. Foco na sustentabilidade da Amazônia Legal.">
+  <meta property="og:image" content="assets/vr_farmer_training.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="VRural | Capacitação Agrícola Imersiva em Realidade Virtual">
+  <meta property="twitter:description" content="Treinamento prático e imersivo para produtores rurais. Erre no simulador, acerte na safra. Foco na sustentabilidade da Amazônia Legal.">
+  <meta property="twitter:image" content="assets/vr_farmer_training.png">
+
+  <title>VRural — Capacitação Agrícola em Realidade Virtual</title>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1>VRural</h1>
-  <p>Startup de capacitação técnica para pequenos e médios produtores rurais, usando treinamentos práticos em realidade virtual.</p>
 
-  <h2>O que fazemos</h2>
-  <p>A VRural oferece módulos de treinamento que permitem ao produtor aprender técnicas de manejo, preparo de solo e cultivo de culturas de maior valor agregado em ambiente simulado, sem risco para a lavoura.</p>
+  <!-- Header Navigation -->
+  <header class="header glass" id="site-header">
+    <a href="#" class="logo" aria-label="VRural Home">
+      <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L2 22h20L12 2zm0 4l6.4 12.8H5.6L12 6zm-1 8h2v2h-2v-2zm0-4h2v2h-2v-2z"/>
+      </svg>
+      VRural
+    </a>
+    
+    <nav class="nav-menu" aria-label="Navegação principal">
+      <a href="#solucao" class="nav-link">A Solução</a>
+      <a href="#simulador" class="nav-link">Simulador</a>
+      <a href="#modulos" class="nav-link">Módulos</a>
+      <a href="#modelo-negocio" class="nav-link">Modelo</a>
+      <a href="#equipe" class="nav-link">Equipe</a>
+      <a href="#contato" class="nav-link">Contato</a>
+      
+      <!-- Theme Toggle Switch -->
+      <button class="theme-toggle" id="theme-toggle" aria-label="Mudar tema visual">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
 
-  <h2>Atuação</h2>
-  <p>Atuação inicial na Amazônia Legal, com piloto no P.A. Nova Amazônia, em Boa Vista (RR).</p>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+          </svg>
+          Inovação na Amazônia Legal
+        </div>
+        <h1 class="hero-title">Treinamento em <span>Realidade Virtual</span> para o Produtor Rural</h1>
+        <p class="hero-description">Capacitação prática, interativa e sem riscos. A VRural permite que o agricultor aprenda novas técnicas de manejo e culturas de alto valor agregado simulando o processo passo a passo.</p>
+        <div class="hero-cta">
+          <a href="#simulador" class="btn btn-primary" id="cta-simulador">Testar Simulador</a>
+          <a href="#contato" class="btn btn-secondary" id="cta-contato">Solicitar Piloto</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="image-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+          </svg>
+          <span>[Imagem: Agricultor com Headset de Realidade Virtual]</span>
+        </div>
+      </div>
+    </section>
 
-  <h2>Contato</h2>
-  <p>E-mail: seuemail@exemplo.com<br>
-     WhatsApp: +55 (xx) xxxxx-xxxx
-  </p>
+    <!-- Problem & Solution comparison -->
+    <section class="section-container scroll-reveal" id="solucao">
+      <div class="section-header">
+        <h2>O Desafio e a Solução Imersiva</h2>
+        <p>A transição para práticas sustentáveis exige conhecimento prático que, muitas vezes, é caro e arriscado de obter diretamente na terra.</p>
+      </div>
+
+      <div class="compare-grid">
+        <!-- O Desafio -->
+        <div class="compare-card card-problem">
+          <h3 class="compare-title">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+            </svg>
+            O Desafio do Produtor
+          </h3>
+          <ul class="compare-list">
+            <li class="compare-item">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              <span><strong>Suporte Limitado:</strong> Apenas 20% dos agricultores familiares brasileiros têm acesso regular a orientação e assistência técnica contínua.</span>
+            </li>
+            <li class="compare-item">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              <span><strong>Alto Risco de Erro:</strong> Práticas incorretas de plantio e manejo na lavoura causam perdas financeiras diretas que impactam o sustento familiar.</span>
+            </li>
+            <li class="compare-item">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              <span><strong>Desperdício Crítico:</strong> Falta de conhecimento prático gera mau uso de insumos, baixa produtividade e desgaste do solo amazônico.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- A Solução VRural -->
+        <div class="compare-card card-solution">
+          <h3 class="compare-title">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+            A Solução Imersiva
+          </h3>
+          <ul class="compare-list">
+            <li class="compare-item">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Kits VR Portáteis:</strong> Óculos de realidade virtual totalmente portáteis e autônomos levados diretamente a cooperativas e comunidades.</span>
+            </li>
+            <li class="compare-item">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Módulos Adaptados:</strong> O agricultor pratica todos os passos (plantio, irrigação, colheita) interativamente e de forma segura.</span>
+            </li>
+            <li class="compare-item">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Orientação Local:</strong> Um técnico local capacitado acompanha a atividade para orientar e coletar dados de desempenho.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simulator Interactive Section -->
+    <section class="section-container scroll-reveal" id="simulador">
+      <div class="section-header">
+        <h2>Experimente o Treinamento VR</h2>
+        <p>Utilize o painel abaixo para vivenciar os passos do treinamento prático direto no navegador. Simule os passos técnicos de calibração e manejo do solo.</p>
+      </div>
+
+      <!-- Simulator Device Frame -->
+      <div class="simulator-container glass" id="simulator-frame">
+        <!-- Frame bar -->
+        <div class="sim-header">
+          <div class="sim-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-display" viewBox="0 0 16 16">
+              <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.17-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.46 1.46 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.46 1.46 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
+            </svg>
+            Simulador de Visor VRural
+          </div>
+          <div class="sim-badge">SISTEMA ONLINE</div>
+          <div class="sim-controls-indicators" aria-label="Indicador de passos">
+            <span class="sim-dot active" aria-hidden="true"></span>
+            <span class="sim-dot" aria-hidden="true"></span>
+            <span class="sim-dot" aria-hidden="true"></span>
+            <span class="sim-dot" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <!-- VR Viewport Screen -->
+        <div class="sim-body" id="sim-body" aria-live="polite">
+          <div class="sim-viewport-overlay"></div>
+          <div class="sim-aim-reticle"></div>
+          
+          <div class="sim-content" id="sim-content">
+            <!-- HUD Stats -->
+            <div class="sim-hud-top">
+              <div class="hud-item" id="hud-left">PH: <span>5.2 (Ácido)</span></div>
+              <div class="hud-item" id="hud-right">UMIDADE: <span>74%</span></div>
+            </div>
+
+            <!-- Context message box -->
+            <div class="sim-main-view">
+              <h4 class="sim-step-title" id="sim-step-title">1. Calibração do Solo</h4>
+              <p class="sim-step-desc" id="sim-step-desc">Insira o medidor digital de pH na área de cultivo virtual. O HUD indica pH 5.2. O produtor aprende instantaneamente que o solo está ácido e necessita de calagem antes do plantio.</p>
+            </div>
+
+            <!-- Lower action bar -->
+            <div class="sim-hud-bottom">
+              <div class="sim-instructions" id="sim-instruction">Alinhe a retícula e pressione GATILHO para inserir o sensor de solo.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Simulator Footer Controls -->
+        <div class="sim-footer">
+          <button class="sim-nav-btn" id="sim-prev" disabled aria-label="Passo anterior">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H3.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L3.707 8.5H14.5A.5.5 0 0 0 15 8z"/></svg>
+            Anterior
+          </button>
+          <span style="font-size: 0.85rem; font-weight: 500; color: var(--text-secondary);">Demonstração Interativa</span>
+          <button class="sim-nav-btn" id="sim-next" aria-label="Próximo passo">
+            Próximo Passo
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modules/Courses Grid -->
+    <section class="section-container scroll-reveal" id="modulos">
+      <div class="section-header">
+        <h2>Módulos de Capacitação</h2>
+        <p>Nossos cursos são desenvolvidos em parceria com agrônomos especialistas e são totalmente focados nas principais culturas sustentáveis da Amazônia Legal.</p>
+      </div>
+
+      <div class="modules-grid">
+        <!-- Module 1: Pitaya -->
+        <article class="module-card glass">
+          <div class="module-image-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+            </svg>
+            <span>[Imagem: Cultivo de Pitaya]</span>
+            <span class="module-tag">Pitaya de Alto Valor</span>
+          </div>
+          <div class="module-content">
+            <h3 class="module-title">Cultivo Técnico de Pitaya</h3>
+            <p>Aprenda o manejo técnico, tutoramento, poda de produção e polinização manual para esta cultura de alto retorno econômico.</p>
+            <div class="module-meta">
+              <div class="module-meta-item">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                <span>3 Horas Simulação</span>
+              </div>
+              <div class="module-meta-item">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                <span>Nível Inicial</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Module 2: Milho -->
+        <article class="module-card glass">
+          <div class="module-image-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+            </svg>
+            <span>[Imagem: Manejo de Milho]</span>
+            <span class="module-tag">Milho de Alta Produtividade</span>
+          </div>
+          <div class="module-content">
+            <h3 class="module-title">Manejo e Nutrição de Milho</h3>
+            <p>Domine as práticas corretas de espaçamento, adubação de cobertura e monitoramento fitossanitário para aumentar a produtividade da lavoura.</p>
+            <div class="module-meta">
+              <div class="module-meta-item">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                <span>4 Horas Simulação</span>
+              </div>
+              <div class="module-meta-item">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                <span>Nível Inicial</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Module 3: Maracujá -->
+        <article class="module-card glass">
+          <div class="module-image-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+            </svg>
+            <span>[Imagem: Manejo de Maracujá]</span>
+            <span class="module-tag">Maracujá Técnico</span>
+          </div>
+          <div class="module-content">
+            <h3 class="module-title">Cultivo do Maracujazeiro</h3>
+            <p>Pratique a irrigação por gotejamento, condução da planta em espaldeiras virtuais e controle integrado de pragas locais para elevar a qualidade física do fruto.</p>
+            <div class="module-meta">
+              <div class="module-meta-item">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                <span>5 Horas Simulação</span>
+              </div>
+              <div class="module-meta-item">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                <span>Nível Médio</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Business Model Section -->
+    <section class="section-container scroll-reveal" id="modelo-negocio">
+      <div class="section-header">
+        <h2>Modelo de Negócio Comercial</h2>
+        <p>Desenvolvemos soluções de parcerias viáveis para todos os níveis da cadeia de valor do agronegócio familiar.</p>
+      </div>
+
+      <div class="business-grid">
+        <!-- Cooperativas -->
+        <article class="business-card glass card-primary">
+          <div class="business-header">
+            <span class="business-tag">B2B (Foco Principal)</span>
+            <h3 class="business-title">Cooperativas & Associações</h3>
+          </div>
+          <div class="business-body">
+            <p>Assinatura mensal para disponibilizar os óculos e módulos de VR localmente para os associados.</p>
+            <div class="business-price">
+              <span class="price-label">Monetização Prevista</span>
+              <div class="price-value">A partir de R$ 2.000 <span class="price-period">/ mês</span></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- B2G -->
+        <article class="business-card glass">
+          <div class="business-header">
+            <span class="business-tag">B2G</span>
+            <h3 class="business-title">Órgãos Públicos & Extensão</h3>
+          </div>
+          <div class="business-body">
+            <p>Contratos institucionais e projetos de fomento técnico para capacitação e extensão rural no campo.</p>
+            <div class="business-price">
+              <span class="price-label">Monetização Prevista</span>
+              <div class="price-value">Licenciamento Anual <span class="price-period">sob demanda</span></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- B2C -->
+        <article class="business-card glass">
+          <div class="business-header">
+            <span class="business-tag">B2C (Complementar)</span>
+            <h3 class="business-title">Produtores Individuais</h3>
+          </div>
+          <div class="business-body">
+            <p>Treinamentos e diagnósticos de plantio e solo presenciais avulsos diretamente nas propriedades.</p>
+            <div class="business-price">
+              <span class="price-label">Monetização Prevista</span>
+              <div class="price-value">Pacotes de 1 a 3 dias <span class="price-period">por serviço</span></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Team & Validation Section -->
+    <section class="section-container scroll-reveal" id="equipe">
+      <div class="section-header">
+        <h2>Validação & Equipe</h2>
+        <p>Desenvolvendo tecnologia sob medida para as reais necessidades dos produtores do P.A. Nova Amazônia.</p>
+      </div>
+
+      <div class="team-layout">
+        <!-- Validation Stats -->
+        <div class="stats-card glass">
+          <div class="stats-number">15</div>
+          <div class="stats-label">Produtores no Piloto Inicial</div>
+          <p class="stats-desc">Nosso piloto controlado no P.A. Nova Amazônia está desenhado para medir a usabilidade prática dos óculos no campo, analisar a curva de aprendizagem dos módulos de cultivo (pitaya, milho, maracujá) e coletar feedback local estruturado.</p>
+        </div>
+
+        <!-- Team Grid -->
+        <div class="team-members">
+          <!-- Hiago -->
+          <div class="member-card glass">
+            <div class="member-avatar">HP</div>
+            <div class="member-info">
+              <h3 class="member-name">Hiago Pereira</h3>
+              <p class="member-role">Coordenação do Piloto em Campo</p>
+              <p class="member-bio">Lidera a aplicação direta dos treinamentos com os produtores rurais locais no estado de Roraima.</p>
+            </div>
+          </div>
+
+          <!-- Beatriz & Eric -->
+          <div class="member-card glass">
+            <div class="member-avatar">BT</div>
+            <div class="member-info">
+              <h3 class="member-name">Beatriz & Eric Trindade</h3>
+              <p class="member-role">Ambientes e Roteiro Técnico</p>
+              <p class="member-bio">Responsáveis pela criação tridimensional dos cenários virtuais e pela estruturação pedagógica das tarefas agrícolas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilot and Cooperativa Section -->
+    <section class="section-container scroll-reveal" id="contato">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <div>
+            <h2 class="contact-info-title">Impulsione sua Produção</h2>
+            <p>Trabalhamos em parceria com cooperativas, associações e programas públicos de capacitação agrícola no P.A. Nova Amazônia e em Boa Vista - RR.</p>
+          </div>
+          
+          <div class="contact-methods">
+            <!-- Email -->
+            <div class="contact-method-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">E-mail de Contato</div>
+                <div class="contact-value">contato@vrural.com.br</div>
+              </div>
+            </div>
+            
+            <!-- WhatsApp -->
+            <div class="contact-method-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">WhatsApp</div>
+                <div class="contact-value">+55 (95) 99999-9999</div>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-method-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Sede e Operação</div>
+                <div class="contact-value">Boa Vista – Roraima</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <form class="contact-form" action="#" method="POST" id="pilot-request-form">
+            <div class="form-group">
+              <label class="form-label" for="form-name">Nome Completo</label>
+              <input class="form-input" type="text" id="form-name" name="name" placeholder="Seu nome" required autocomplete="name">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label" for="form-email">E-mail Corporativo / Contato</label>
+              <input class="form-input" type="email" id="form-email" name="email" placeholder="nome@exemplo.com" required autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-entity">Nome da Cooperativa ou Propriedade</label>
+              <input class="form-input" type="text" id="form-entity" name="entity" placeholder="Ex: Cooperativa Agro Nova" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-message">Mensagem ou Dúvidas</label>
+              <textarea class="form-input" id="form-message" name="message" placeholder="Olá, gostaria de agendar uma demonstração piloto para nossos associados..." required></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit" style="align-self: flex-start; border-radius: 12px; padding: 0.9rem 2rem;">Enviar Solicitação</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 22h20L12 2zm0 4l6.4 12.8H5.6L12 6zm-1 8h2v2h-2v-2zm0-4h2v2h-2v-2z"/>
+        </svg>
+        VRural
+      </div>
+      <div class="footer-copyright">
+        &copy; 2026 VRural. Todos os direitos reservados.
+      </div>
+      <nav class="footer-links" aria-label="Links institucionais">
+        <a href="#solucao" class="footer-link">Sobre</a>
+        <a href="#simulador" class="footer-link">Simulador</a>
+        <a href="#modulos" class="footer-link">Módulos</a>
+        <a href="#contato" class="footer-link">Contato</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
 </body>
 </html>
